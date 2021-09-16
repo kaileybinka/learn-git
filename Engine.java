@@ -52,6 +52,15 @@ public class Engine {
   // TODO: Complete this method
   // Player is either 0 or 1, row and column are valid and empty
   public void playerTurn(int player, int row, int col) {
+    // is this what I am changing?
+    
+    if (player == 0) {
+      board[row][col] = symbol1;
+    }
+    
+    if (player == 1) {
+      board[row][col] = symbol2;
+    }
     return;
   }
 
